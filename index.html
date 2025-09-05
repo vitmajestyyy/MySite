@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="/images/logo.jpg" type="image/jpg">
+        <title>Vitt's Game Download Site</title>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3284726038303329"
+        crossorigin="anonymous"></script>
+   <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-format="fluid"
+        data-ad-layout-key="+4d+q4+53-ix+c5"
+        data-ad-client="ca-pub-3284726038303329"
+        data-ad-slot="1764089912"></ins>
+   <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+   </script>
+        <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/680b91498a0bf61909cffe1f/1ipmiv2bl';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+        <style>
+            /* General Reset */
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: 'Arial', sans-serif;
+                color: #333;
+                background-color: #f9f9f9;
+                line-height: 1.6;
+                overflow-x: hidden;
+            }
+
+            header {
+                background: rgba(0, 0, 0, 0.7);
+                color: white;
+                text-align: center;
+                padding: 20px 0;
+                position: relative;
+                z-index: 10;
+            }
+
+            header p {
+                font-size: 1.2em;
+                opacity: 0.8;
+            }
+
+            /* Video Background */
+            video {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                z-index: -1;
+                filter: brightness(50%);
+            }
+
+            /* Slide-out Menu */
+            #menuButton {
+                position: absolute;
+                top: 20px;
+                left: 20px;
+                background: none;
+                border: none;
+                cursor: pointer;
+                z-index: 20;
+            }
+
+            #menuButton div {
+                width: 30px;
+                height: 3px;
+                background-color: white;
+                margin: 5px 0;
+                transition: all 0.3s ease;
+            }
+
+            #slideMenu {
+                position: fixed;
+                top: 0;
+                left: -300px;
+                width: 300px;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.158);
+                box-shadow: 2px 0 5px transparent;
+                padding: 30px;
+                transition: left 0.3s ease;
+                z-index: 15;
+            }
+
+            #slideMenu ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            }
+
+            #slideMenu ul li {
+                margin: 20px 0;
+            }
+
+            #slideMenu ul li a {
+                text-decoration: none;
+                color: #f8f8f8;
+                font-size: 1.2em;
+                transition: color 0.3s ease;
+            }
+
+            #slideMenu ul li a:hover {
+                color: #007BFF;
+            }
+
+            /* Games Section */
+            section {
+                text-align: center;
+                padding: 40px 20px;
+            }
+
+            section h2 {
+                font-size: 2.5em;
+                margin-bottom: 20px;
+                color: #333;
+            }
+
+            .game-container {
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+                flex-wrap: wrap;
+            }
+
+            .game-card {
+                border: 1px solid #ddd;
+                border-radius: 10px;
+                padding: 20px;
+                width: 250px;
+                background-color: white;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+
+            .game-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+            }
+
+            .game-card img {
+                width: 100%;
+                border-radius: 10px;
+                margin-bottom: 15px;
+            }
+
+            .game-card h3 {
+                font-size: 1.5em;
+                margin-bottom: 10px;
+                color: #333;
+            }
+
+            .game-card p {
+                font-size: 1em;
+                color: #555;
+                margin-bottom: 15px;
+            }
+
+            .game-card button {
+                background-color: #007BFF;
+                color: white;
+                border: none;
+                padding: 10px 15px;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+            }
+
+            .game-card button:hover {
+                background-color: #0056b3;
+            }
+
+            
+            footer {
+    text-align: center;
+    padding: 20px;
+    background-color: transparent;
+    color: white;
+    font-size: 1.2em;
+    border: 2px solid white; 
+    border-radius: 15px; 
+    width: fit-content; 
+    margin: 20px auto; 
+}
+
+            footer p {
+                margin: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <video autoplay loop muted playsinline>
+            <source src="/background/cardrift.mkv" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <header>
+            <h1 style="font-family: 'main', sans-serif; font-size: 60px;">
+                Vittt's Game Download Site
+            </h1>
+            <p>Don't ever worry about viruses. I've test them all already</p>
+            <p>All games are free to download and download it from MEGA</p>
+            <style>
+                @font-face {
+                    font-family: 'main';
+                    src: url('/fonts/main.otf') format('opentype');
+                }
+            </style>
+            <h2 style="font-family: 'main', sans-serif; font-size: 30px; color: rgb(0, 174, 255);">
+                <a href="gameshop.html" style="color: rgb(0, 174, 255);">CLICK HERE IF U WANTED TO BUY GAME AT CHEAPEST PRICE </a>
+            </h2>
+        </header>
+        <button id="menuButton">
+            <div></div>
+            <div></div>
+            <div></div>
+        </button>
+
+        <div id="slideMenu">
+            <ul>
+                <li><a href="https://t.me/lmgfsm">ABOUT ME</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+            </ul>
+        </div>
+
+        <section id="games">
+            <h2 style="color: white; font-family: 'main', sans-serif;">Popular Games</h2>
+            <div class="game-container">
+                <div class="game-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/GTASABOX.jpg/250px-GTASABOX.jpg" alt="Game 1">
+                    <h3>Grand Theft Auto SanAndreas</h3>
+                    <p>Grand Theft Auto: San Andreas is a 2004 action-adventure game developed by Rockstar North and published by Rockstar Games. It is the fifth main game in the Grand Theft Auto series, following 2002's Grand Theft Auto: Vice City, and the seventh entry overall. Set within the fictional U.S. state of San Andreas, the game follows Carl "CJ" Johnson, who returns home in 1992 after his mother's murder and finds his old street gang has lost much of their territory. Over the course of the game, he attempts to rebuild the gang, clashes with corrupt authorities and powerful criminals, and gradually unravels the truth behind his mother's murder.</p>
+                    <a href="https://mega.nz/file/3IgwlRRC#7iJ7T6hjp98_kfubIUCoQMyXQuoDkqwgkOvBl9ra2AM" target="_blank">
+                        <button>Download</button>
+                    </a>
+                </div>
+                <div class="game-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Vice-city-cover.jpg/250px-Vice-city-cover.jpg" alt="Game 2">
+                    <h3>Grand Theft Auto Vice City</h3>
+                    <p>Grand Theft Auto: Vice City is a 2002 action-adventure game developed by Rockstar North and published by Rockstar Games. It is the fourth main game in the Grand Theft Auto series, following 2001's Grand Theft Auto III, and the sixth entry overall. Set in 1986 within the fictional Vice City (based on Miami and Miami Beach), the single-player story follows mobster Tommy Vercetti's rise to power after being released from prison and becoming caught up in an ambushed drug deal.</p>
+                    <a href="https://mega.nz/file/bYQ2TZYJ#iBve-buiHhc_c5l117IBx_19niUjk0j4zd2NlWMwLwQ" target="_blank">
+                        <button>Download</button>
+                    </a>
+                </div>
+                <div class="game-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/be/GTA3boxcover.jpg/250px-GTA3boxcover.jpg" alt="Game 3">
+                    <h3>Grand Theft Auto III</h3>
+                    <p>Grand Theft Auto III is a 2001 action-adventure game developed by DMA Design and published by Rockstar Games. It was the first 3D game in the Grand Theft Auto series. Set in Liberty City, loosely based on New York City, the story follows Claude, a silent protagonist who becomes entangled in a world of crime, drugs, gang warfare and corruption. The game is played from a third-person perspective and its world is navigated on foot or by vehicle. Its open world design lets players freely roam Liberty City.</p>
+                    <a href="https://mega.nz/file/uIh11JwQ#JDSy8ci2-2CdKHf5yGeS42b8qjEqBPXwfeo3k3_KUMA" target="_blank">
+                        <button>Download</button>
+                    </a>
+                </div>
+                <div class="game-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/de/Grand_Theft_Auto_London_1969.jpg/250px-Grand_Theft_Auto_London_1969.jpg" alt="Game 4">
+                    <h3>Grand Theft Auto London 1969</h3>
+                    <p>Grand Theft Auto Mission Pack #1: London 1969 is an expansion pack for the 1997 action-adventure game Grand Theft Auto, developed by Rockstar Canada and published by Rockstar Games. It was released for personal computers (MS-DOS and Windows) and the PlayStation in April 1999. The expansion adheres to the same gameplay mechanics of the main game and takes place in a fictionalised version of London during the 1960s. Players assume the role of a criminal who works for several London-based crime syndicates, and complete levels by achieving a set score, within an open world environment that allows them to do whatever they wish alongside jobs to achieve their goal.</p>
+                    <a href="https://mega.nz/file/LMABRQpK#xSzFj0gTyhLiCZ9GE3pjqQJeuUKJrvfv1IFrZ2T-mu4" target="_blank">
+                        <button>Download</button>
+                    </a>
+                </div>
+                <div class="game-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/Grand_Theft_Auto_Liberty_City_Stories_box.jpg/250px-Grand_Theft_Auto_Liberty_City_Stories_box.jpg" alt="Game 5">
+                    <h3>Grand Theft Auto Liberty City Stories</h3>
+                    <p>Grand Theft Auto: Liberty City Stories is a 2005 action-adventure game developed in a collaboration between Rockstar Leeds and Rockstar North, and published by Rockstar Games.</p>
+                    <a href="https://mega.nz/file/bJIGTbhb#wnieXa2VJwBCaZgoHu8z-75w83E1IvfrBE3cAy_7fFk" target="_blank">
+                        <button>Download</button>
+                    </a>
+                </div>
+                <div class="game-card">
+                    <img src="https://imgs.search.brave.com/QgK35X2ISyDo_CA0YZrYch0NmzjXaiAjO6R65DZM5ug/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1Qk9UTXhObU16/TjJNdFkyUXhNQzAw/T1RrNExXRTNaR0V0/WWpZMVltWmtPVFV5/WkdZd1hrRXlYa0Zx/Y0djQC5qcGc" alt="Game 6">
+                    <h3>Youtubers Life</h3>
+                    <p>Youtubers Life is a life and business simulation video game in development by Spain-based independent company U-Play online. The game was released into Steam Early Access in May 2016.</p>
+                    <a href="https://mega.nz/file/mVgHDSBL#zaU85_l8NFaMy1fSLTv_kn3weQtnW7TsY0p4jZwJBXw" target="_blank">
+                        <button>Download</button>
+                    </a>
+                </div>
+                <div class="game-card">
+                    <img src="https://gamingbeasts.com/wp-content/uploads/2024/06/Youtubers-Life-2-pc-dvd.png" alt="Game 7">
+                    <h3>Youtubers Life 2</h3>
+                    <p>Youtuber's Life 2 is a single-player life simulator that allows players to create and manage their own YouTube channel. It is available on PC, as well as on other platforms like Nintendo Switch, PlayStation 4, and Xbox One. The game lets you start from humble beginnings and work your way up to fame by creating trend-based content, completing tasks to earn money, and building relationships with neighbors to uncover their stories.</p>
+                    <a href="https://mega.nz/file/bVgBRahb#VYVhZEQXcy-8pfn9Yiv9b9TnHg9nIb2w7dQ_RtOq7uQ" target="_blank">
+                        <button>Download</button>
+                    </a>
+                </div>
+                <div class="game-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/TTOTD_Packshot.jpeg/256px-TTOTD_Packshot.jpeg" alt="Game 8">
+                    <h3>The Typing Of The Dead</h3>
+                    <p>The Typing of the Dead is a modification of Sega's 1998 light gun arcade game The House of the Dead 2 in which the gun is replaced by a computer keyboard. The player takes the role of a secret agent in a zombie-infested Venice and must quickly type letters, words and phrases in order to kill fast-advancing enemies.</p>
+                    <a href="https://mega.nz/file/KZpCgBAa#vbWyTT9ygqj-kneN3VQgL8gvKLTZ1C30z7iu6HYbYf8" target="_blank">
+                        <button>Download</button>
+                    </a>
+                </div>
+                <div class="game-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Samurai_II_-_Vengeance_logo.png/250px-Samurai_II_-_Vengeance_logo.png" alt="Game 9">
+                    <h3>Samurai II Vegence</h3>
+                    <p>Samurai II: Vengeance is a cel-shaded hack and slash video game that depicts the story of a great samurai in a mythological Feudal Japanese setting.</p>
+                    <a href="https://mega.nz/file/CRZQBT4K#6wFiYzDsBtRvc3KCAJQy5Wwm2L3bv4dRVWmRzWKQ7yg" target="_blank">
+                        <button>Download</button>
+                    </a>
+                </div>
+                <div class="game-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9c/PlantsvsZombiesCoverArt.jpg/250px-PlantsvsZombiesCoverArt.jpg" alt="Game 10">
+                    <h3>The Plants Vs Zombies</h3>
+                    <p>Plants vs. Zombies is a 2009 tower defense video game developed and published by PopCap Games. First released for Windows and Mac OS X, the game has since been ported to consoles, handhelds, and mobile devices.</p>
+                    <a href="https://mega.nz/file/qQJAhKRC#1WqffL8HywnvWfJez7eFaU7FStI6-qiI_cQU2DGpNvI" target="_blank">
+                        <button>Download</button>
+                    </a>
+                </div>
+                <div class="game-card">
+                    <img src="https://imgs.search.brave.com/kchqe0yn0hfV044utq8sfi9qRuXYwyhyvbe94j0nJyE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9paDEu/cmVkYnViYmxlLm5l/dC9pbWFnZS4yODQy/ODEzNjY2LjcyOTIv/ZmxhdCw3NTB4LDA3/NSxmLXBhZCw3NTB4/MTAwMCxmOGY4Zjgu/anBn" alt="Game 11">
+                    <h3>Getting Over It with Bennett Foddy</h3>
+                    <p>Getting Over It with Bennett Foddy is a platform game developed by the titular Bennett Foddy. The game was released as part of the October 2017 Humble Monthly, on October 6, 2017, where it went on to be played by over 2.7 million players.</p>
+                    <a href="https://mega.nz/file/7RpkTSza#cFzV5wQtovU77ReOax9kSJ3dsk6Y28vsLfnABR1eYIA" target="_blank">
+                        <button>Download</button>
+                    </a>
+                </div>
+                <div class="game-card">
+                    <img src="https://imgs.search.brave.com/Dda2rGiz0fyTObB2wMkKUU4Koi2RHDZL26jAPBJJGKo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9nYW1p/bmdiZWFzdHMuY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIx/LzA4L0ZlZWQtQW5k/LUdyb3ctRmlzaC1w/Yy1kdmQuanBn" alt="Game 12">
+                    <h3>Feed And Grow Fish</h3>
+                    <p>Feed and Grow: Fish is a survival and aquatic simulation game developed by Old B1ood, where players start as a small fish named Bibos and grow into larger predators by eating other fish.</p>
+                    <a href="https://mega.nz/file/mdAyGCBZ#jgUqKdyGPRIWcuPq7okg0fIhUAird0YwuX_3k4BKPRI" target="_blank">
+                        <button>Download</button>
+                    </a>
+                </div>
+                <div class="game-card">
+                    <img src="https://us.informatiweb.net/images/tutoriels/logos/us/windows-7-reinstall-windows-7-built-in-games.jpg" alt="Game 13">
+                    <h3>Microsft Window 7 Games Collection</h3>
+                    <p>This window 7 games is made for window 10-11</p>
+                    <a href="https://mega.nz/file/GVhHgA4R#BwBQk_oanYMAgh3rM1K0RQy0jR-5WcuTwdOyAEboPRk" target="_blank">
+                        <button>Download</button>
+                    </a>
+                </div>
+                <div class="game-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Adobe_Premiere_Pro_CC_icon.svg/1024px-Adobe_Premiere_Pro_CC_icon.svg.png" alt="Game 13">
+                    <h3>Adobe Premiere Pro 2025</h3>
+                    <p>Adobe Premiere Pro is a standalone, non-linear video editing application developed by Adobe Systems Incorporated and distributed as part of the Adobe Creative Cloud suite. It is primarily used for producing professional videos, and in industries such as broadcast media and advertising.</p>
+                    <a href="https://drive.usercontent.google.com/download?id=1Rqn4ewYKwpNmXvas8KmTwyTCxHi0_rXh&export=download&authuser=0" target="_blank">
+                        <button>Download</button>
+                    </a>
+                </div>
+                <div class="game-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/1024px-Adobe_Photoshop_CC_icon.svg.png" alt="Game 13">
+                    <h3>Adobe Photoshop 2025</h3>
+                    <h3 style="color: red;">Price 3$</h3>
+                    <p>Adobe Photoshop is a raster graphics editor developed and published by Adobe for Windows and macOS. It was created in 1987 by Thomas and John Knoll. It is the most used tool for professional digital art, especially in raster graphics editing, and its name has become genericised.</p>
+                    <a href="https://t.me/lmgfsm" target="_blank">
+                        <button>Contact Me</button>
+                    </a>
+                </div>
+                <div class="game-card"> 
+                    <img src="https://content.jdmagicbox.com/rep/b2b/internet-download-manager-software/internet-download-manager-software-1.jpg?impolicy=queryparam&im=Resize=(360,360),aspect=fit" alt="">
+                    <h3>Price: 5$ </h3>
+                    <p>Internet download manager activation service for lifetime use. Contact me for more info and price can negotiable.</p>
+                    <a href="https://t.me/lmgfsm" target="_blank">
+                        <button>CONTACT ME</button>
+                    </a>
+                </div>
+                <div class="game-card"> 
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTi0eAtmJyO1TVclCrd-ZqchLKKw7kSWbVIgegJ-BD4P_e-Fz7iuQ7uLnAP_7ULSaNTB4&usqp=CAU" alt="">
+                    <h3>Price: 15$</h3>
+                    <p>Winrar license key for lifetime and use as many devices as you wanted. Contact me for more info and price can negotiable.</p>
+                    <a href="https://t.me/lmgfsm" target="_blank">
+                        <button>CONTACT ME</button>
+                    </a>
+                </div>
+                <div class="game-card"> 
+                    <img src="https://cdnb.artstation.com/p/assets/images/images/024/725/385/medium/ivan-tantsiura-fllogosmall.jpg?1583334379" alt="">
+                    <h3>FL Studio 2025 Producer Edition</h3>
+                    <p>FL Studio (known as FruityLoops before 2003) is a digital audio workstation (DAW) developed by the Belgian company Image-Line. It features a graphical user interface with a pattern-based music sequencer. It is available in four different editions for Microsoft Windows and macOS.</p>
+                    <a href="https://mega.nz/file/fNh32bLK#1bJ22fhY_v3407wirdlCn3ptxXplXEX2Gf_oSHmD2f8" target="_blank">
+                        <button>Download</button>
+                    </a>
+                </div>
+                <div class="game-card"> 
+                    <img src="https://images.gamegator.net/co88lz" alt="">
+                    <h3>Command & Conquer-Red Alert 2 Yuri's Revenge</h3>
+                    <p>The world erupts in conflict as Soviet forces invade American soil in Command & Conquer: Red Alert 2. You are the Supreme Commander. Arm yourself to the teeth with top-secret technologies and lead the Soviet or Allied troops to victory.</p>
+                    <a href="https://mega.nz/file/7FIS0ShZ#iHMGOOPfis0tdfWwup-arNKzGHE4CEQznUX69bf2sPI" target="_blank">
+                        <button>Downlaod</button>
+                    </a>
+                 </div>
+            <div class="game-card"> 
+                    <img src="https://i.ytimg.com/vi/agwwIHo19bs/oardefault.jpg?sqp=-oaymwEYCJUDENAFSFqQAgHyq4qpAwcIARUAAIhC&rs=AOn4CLDTzbPuAULUXYhxDddympu2oZ1M8g" alt="">
+                    <h3>Plants Vs Zombies: Fusion Mod</h3>
+                    <p>Plants vs. Zombies Fusion is a fan-made game based on Plants vs. Zombies and developed on the Unity engine. Development began on May 8th 2024, with the first showcase video released on June 14th 2024 on Bilibili. At present, there are two versions of PvZ Fusion, a public version, and the other is for developers. Compared with the public version, indev versions are updated faster and used for sneak peeks and beta testing.</p>
+                    <a href="https://mega.nz/file/WzgzDQ4D#OTn3YdW3neqQnU3Gjdn8ZeNglPU0xqJFuLEXFCPR7Io" target="_blank">
+                        <button>Download</button>
+                    </a>
+                 </div>
+                             <div class="game-card"> 
+                    <img src="https://images.g2a.com/470x276/1x1x0/schedule-i-pc-steam-account-global-i10000510371007/3cb7a5518d3348ef9dab2ef1" alt="">
+                    <h3>Scehdule I</h3>
+                    <p>From small-time dope pusher to kingpin - manufacture and distribute a range of drugs throughout the grungy city of Hyland Point. Expand your empire with properties, businesses, employees and more.</p>
+                    <a href="https://mega.nz/file/3EwQDIxZ#6GvGjf6ece5fev4B4AqXE9QASDrBZY4O_UcsYpWd7qI" target="_blank">
+                        <button>Download</button>
+                    </a>
+                 </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <a href="https://t.me/lmgfsm" target="_blank" style="color: white; text-decoration: none;">Contact me for more games and products</a> 
+        </footer>
+
+        <script>
+            const menuButton = document.getElementById('menuButton');
+            const slideMenu = document.getElementById('slideMenu');
+
+            menuButton.addEventListener('click', () => {
+                if (slideMenu.style.left === '0px') {
+                    slideMenu.style.left = '-300px';
+                } else {
+                    slideMenu.style.left = '0px';
+                }
+            });
+
+            document.body.addEventListener('click', (event) => {
+                if (!slideMenu.contains(event.target) && event.target !== menuButton) {
+                    slideMenu.style.left = '-300px';
+                }
+            });
+        </script>
+    </body>
+</html>

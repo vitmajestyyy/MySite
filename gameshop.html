@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/images/logo.jpg" type="image/jpg">
+    <link rel="stylesheet" href="game.css">
+    <title>Vittt's GameShop</title>
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/680b91498a0bf61909cffe1f/1ipmiv2bl';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+            filter: brightness(50%);
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            color: #fff;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1rem;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background 0.3s ease, color 0.3s ease;
+        }
+
+        nav a:hover {
+            background: #333;
+            color: #fff;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #525252a9;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .game-card {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #6d6d6d;
+            border: transparent 2px solid;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .game-card img {
+            max-width: 120px;
+            border-radius: 8px;
+        }
+
+        .game-info {
+            flex: 1;
+            margin-left: 20px;
+        }
+
+        .game-info h2 {
+            font-size: 1.2rem;
+            color: #09ff00;
+            margin-bottom: 10px;
+        }
+
+        .game-info p {
+            font-size: 0.9rem;
+            color: #ffffff;
+            margin-bottom: 10px;
+        }
+
+        .buy-btn {
+            background: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: background 0.3s ease;
+        }
+
+        .buy-btn:hover {
+            background: #0056b3;
+        }
+
+        .price-tag {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: #ffcc00;
+            color: #333;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333333c2;
+            color: #fff;
+            margin-top: 20px;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <video autoplay loop muted>
+        <source src="/background/cardrift.mkv" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <header>
+        <h1 id="headerText">Vittt's GameShop</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="https://t.me/lmgfsm">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="game-card">
+            <div class="price-tag">$10</div>
+            <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/poster/w/p/e/medium-butcute5958-minecraft-video-game-matte-finish-poster-p-original-imagkca79fb8ntjf.jpeg?q=90&crop=false" alt="Game 1">
+            <div class="game-info">
+                <h2>
+                    Minecraft: Java & Bedrock Edition (PC) - Microsoft Store Account - GLOBAL</h2>
+                <h3 style="color: rgb(251, 255, 0);">About this item</h3>
+                <p>This item is an account, not a key. Instead of a key, you’ll get access to a new, single-customer account on a dedicated platform.</p>
+                <a href="https://t.me/lmgfsm"><button class="buy-btn">Buy Now</button></a>
+            </div>
+        </div>
+        <div class="game-card">
+            <div class="price-tag">$15</div>
+            <img src="https://imgs.search.brave.com/fcIrfAhFNaEHq7E0ZdTyYpGlTzn1iT5c3FSGNEj_Ytc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ibGFj/a2hlYXJ0cHJpbnRz/LmNvbS9jZG4vc2hv/cC9wcm9kdWN0cy9p/bF9mdWxseGZ1bGwu/MzEwNzYyMTAyOF9o/Zmk4XzYwMHguanBn/P3Y9MTY4ODU3MDQ3/Mg" alt="Game 2">
+            <div class="game-info">
+                <h2>Grand Theft Auto: V Enhanced (PC) - Rockstar Game Redeem Key - GLOBAL</h2>
+                <h3 style="color: rgb(251, 255, 0);">Rockstar game laucnehr key</h3>
+                <p>Notice! This purchase includes both GTAV Enhanced and GTAV Legacy for PC (included for hardware that does not meet the minimum system requirements needed for the upgrades in GTAV Enhanced.) Warning! This product is for Rockstar Social Club platform, it CANNOT be activated and played on Steam platform.</p>
+                <a href="https://t.me/lmgfsm"><button class="buy-btn">Buy Now</button></a>
+            </div>
+        </div>
+        <!--
+        <div class="game-card">
+            <div class="price-tag">$</div>
+            <img src="" alt="Game 2">
+            <div class="game-info">
+                <h2></h2>
+                <h3 style="color: rgb(251, 255, 0);"></h3>
+                <p></p>
+                <a href="https://t.me/lmgfsm"><button class="buy-btn">Buy Now</button></a>
+            </div>
+        -->
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Vittt's GameShop. All rights reserved.</p>
+    </footer>
+</body>
+</html>

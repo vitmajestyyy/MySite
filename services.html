@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="/images/logo.jpg" type="image/jpg">
+        <title>Services</title>
+        <style>
+            body {
+                font-family: 'Arial', sans-serif;
+                margin: 0;
+                padding: 0;
+                color: #fff;
+                background-color: #121212;
+            }
+
+            video {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                filter: blur(8px) brightness(0.5);
+                z-index: -1;
+            }
+
+            header {
+                text-align: center;
+                padding: 20px;
+                background: rgba(0, 0, 0, 0.8);
+                border-bottom: 1px solid #333;
+            }
+
+            header h1 {
+                font-size: 2.5rem;
+                margin: 0;
+            }
+
+            header p {
+                font-size: 1rem;
+                margin: 10px 0 0;
+                color: #ccc;
+            }
+
+            #menuButton {
+                position: fixed;
+                top: 20px;
+                left: 20px;
+                background: none;
+                border: none;
+                cursor: pointer;
+                z-index: 10;
+            }
+
+            #menuButton div {
+                width: 30px;
+                height: 3px;
+                background: #fff;
+                margin: 5px 0;
+                transition: 0.3s;
+            }
+
+            #slideMenu {
+                position: fixed;
+                top: 0;
+                left: -300px;
+                width: 250px;
+                height: 100%;
+                background: #1e1e1e;
+                box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+                transition: 0.3s;
+                z-index: 9;
+            }
+
+            #slideMenu ul {
+                list-style: none;
+                padding: 20px;
+                margin: 0;
+            }
+
+            #slideMenu ul li {
+                margin: 20px 0;
+            }
+
+            #slideMenu ul li a {
+                text-decoration: none;
+                color: #fff;
+                font-size: 1.2rem;
+                transition: color 0.3s;
+            }
+
+            #slideMenu ul li a:hover {
+                color: #00bcd4;
+            }
+
+            .services-description {
+                max-width: 800px;
+                margin: 50px auto;
+                padding: 20px;
+                background: rgba(0, 0, 0, 0.8);
+                border-radius: 10px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+                text-align: center;
+            }
+
+            .services-description h2 {
+                font-size: 2rem;
+                margin-bottom: 20px;
+            }
+
+            .services-description p {
+                font-size: 1rem;
+                color: #ccc;
+                margin-bottom: 20px;
+            }
+
+            .services-description ul {
+                list-style: none;
+                padding: 0;
+            }
+
+            .services-description ul li {
+                font-size: 1rem;
+                margin: 10px 0;
+                color: #fff;
+            }
+
+            footer {
+    text-align: center;
+    padding: 20px;
+    background-color: transparent;
+    color: white;
+    font-size: 1.2em;
+    border: 2px solid white; 
+    border-radius: 15px; 
+    width: fit-content; 
+    margin: 20px auto; 
+}
+
+            footer p {
+                margin: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <video autoplay loop muted playsinline>
+            <source src="/background/cardrift.mkv" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <header>
+            <h1>Vittt's Services</h1>
+            <p>Explore the services that I offer to enhance your experience.</p>
+        </header>
+
+        <button id="menuButton">
+            <div></div>
+            <div></div>
+            <div></div>
+        </button>
+
+        <div id="slideMenu">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="https://t.me/lmgfsm">ABOUT ME</a></li>
+            </ul>
+        </div>
+
+        <section class="services-description">
+            <h2>My Services</h2> 
+            <style>
+                @font-face {
+                    font-family: 'CustomFont';
+                    src: url('/fonts/main.otf') format('woff2'),
+                         url('/fonts/CustomFont.woff') format('woff');
+                }
+            </style>
+            <style>
+                @font-face {
+                    font-family: 'CustomFont';
+                    src: url('/fonts/main.otf') format('woff2'),
+                         url('/fonts/CustomFont.woff') format('woff');
+                }
+            </style>
+            <p style="color: #00bcd4; font-family: 'CustomFont', sans-serif;">I provide a variety of services which I've experienced since 2019. With the very affordable price that starts from $10.</p>
+            <h3 style="color: green; font-family: 'CustomFont', sans-serif;">Minecraft Services</h3>
+            <style>
+                @font-face {
+                    font-family: 'CustomFont';
+                    src: url('/fonts/main.otf') format('woff2'),
+                         url('/fonts/CustomFont.woff') format('woff');
+                }
+            </style>
+            <ul>
+                <li>Setting up a minecraft server in CLOUD (AWS,OVH,Oracle Cloud, Local Computer,etc..)</li>
+                <li>Setting up plugin to give user perfect experience </li>
+                <li>Suggest a good idea for your server and make the server security more powerful</li>
+                <li>Technical support for the server.</li>
+            </ul>
+            <h4 style="color: rgb(21, 56, 255); font-family: 'CustomFont', sans-serif;">Technical Support</h4>
+            <style>
+                @font-face {
+                    font-family: 'CustomFont';
+                    src: url('/fonts/main.otf') format('woff2'),
+                         url('/fonts/CustomFont.woff') format('woff');
+                }
+            </style>
+            <ul>
+             <li>Setting up a Window/Linux/Ubuntu operating Systems</li>
+             <li>Solve games error problems</li>
+             <li>Guide you to computer hardware</li>
+            </ul>
+        </section>
+
+        <footer>
+            <a href="https://t.me/lmgfsm" target="_blank" style="color: white; text-decoration: none;">Contact me for if you're interested in any service.</a> 
+        </footer>
+
+        <script>
+            const menuButton = document.getElementById('menuButton');
+            const slideMenu = document.getElementById('slideMenu');
+
+            menuButton.addEventListener('click', () => {
+                if (slideMenu.style.left === '0px') {
+                    slideMenu.style.left = '-300px';
+                } else {
+                    slideMenu.style.left = '0px';
+                }
+            });
+
+            document.body.addEventListener('click', (event) => {
+                if (!slideMenu.contains(event.target) && event.target !== menuButton) {
+                    slideMenu.style.left = '-300px';
+                }
+            });
+        </script>
+    </body>
+</html>
